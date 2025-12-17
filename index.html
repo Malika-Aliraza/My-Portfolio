@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Malika| Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <canvas id="ether-bg"></canvas>
+    <div class="gradient-bg"></div>
+
+    <header class="navbar">
+        <div class="logo">M.</div>
+        <nav class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="/gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="hero" class="section hero">
+            <div class="hero-content">
+                <p class="eyebrow">CyberSecurity Analyst • Storyteller • Problem Solver</p>
+                <h1 class="hero-title">
+                    Hi, I’m <span class="accent">Malika</span>.<br />
+                    Guardian of the Digital Frontier
+                </h1>
+                <p class="decrypt" id="decrypt-text">
+                    A Security Analyst driven by the motive of turning adversity into Armor in the Digital Realm.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="button-glow shine">Let’s work together</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-photo">
+                    <div class="photo-placeholder">PHOTO GOES HERE</div>
+                </div>
+                <div class="hero-right">
+                <div class="floating-card main-card">
+                    <p class="card-label">Currently crafting</p>
+                    <h2>Interactive web stories</h2>
+                    <p class="card-tag">2025 • Portfolio v1</p>
+                </div>
+                <div class="floating-card side-card">
+                    <p>Available for freelance & collaborations</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section about">
+            <div class="section-header">
+                <p class="eyebrow">About</p>
+                <h2 class="glitch-title" data-text="Who I am beyond the code">Who I am beyond the code</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I’m a cybersecurity analyst who enjoys blending strong security logic with thoughtful design. 
+                        I care about how systems feel to users just as much as how secure they are behind the scenes.
+                    </p>
+                    <p>
+                        I enjoy turning complex threats into clear, actionable defenses from analyzing vulnerabilities to building secure, reliable digital experiences 
+                        and I’m constantly learning new tools, technologies, and security practices.
+                    </p>
+                </div>
+                <div class="about-cards">
+                    <div class="pill-card">
+                        <h3>Core skills</h3>
+                        <ul>
+                            <li>Encryption & Cryptography</li>
+                            <li>Network Security & Protocols</li>
+                            <li>Cloud Security & Operating Systems</li>
+                        </ul>
+                    </div>
+                    <div class="pill-card">
+                        <h3>What I value</h3>
+                        <ul>
+                            <li>critical thinking & ethical integrity</li>
+                            <li>continuous learning</li>
+                            <li>Clear communication & collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section projects">
+            <div class="section-header">
+                <p class="eyebrow">Projects</p>
+                <h2 class="glitch-title" data-text="Selected work">Selected work</h2>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="tab active" data-filter="all">All</button>
+                <button class="tab" data-filter="web">Web</button>
+                <button class="tab" data-filter="python">Python</button>
+                <button class="tab" data-filter="java">Java</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="card gradient-border">
+                <article class="project-card" data-tags="web python">
+                    <span class="project-pill">Web · Python</span>
+                    <h3>Interactive Portfolio</h3>
+                    <p>
+                        A smooth, animated personal site with a Python backend, inspired by modern creative studios and motion‑driven design.
+                    </p>
+                    <div class="project-meta">
+                        <span>HTML • CSS • JS • Flask</span>
+                        <a href="#" class="btn ghost" class="project-link">View details</a>
+                    </div>
+                </article>
+                </div>
+
+                <div class="card gradient-border">
+                <article class="project-card" data-tags="web">
+                    <span class="project-pill">Web</span>
+                    <h3>Mini Game Collection</h3>
+                    <p>
+                        A set of browser‑based mini games focused on satisfying feedback, sound, and smooth transitions.
+                    </p>
+                    <div class="project-meta">
+                        <span>HTML • CSS • JavaScript</span>
+                        <a href="#" class="btn ghost" class="project-link">Play online</a>
+                    </div>
+                </article>
+                </div>
+
+                <div class="card gradient-border">
+                <article class="project-card" data-tags="python">
+                    <span class="project-pill">Python</span>
+                    <h3>Study Track</h3>
+                    <p>
+                        A student perfomance calculator that predicts future grades based on influencing factors with graphs for clear visulatation 
+                    </p>
+                    
+                    <div class="project-meta">
+                        <span>Jupiter • Python</span>
+                        <a href="#" class="btn ghost" class="project-link">View on GitHub</a>
+                    </div>
+                </article>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section experience">
+            <div class="section-header">
+                <p class="eyebrow">Experience</p>
+                <h2 class="glitch-title" data-text="Where I’ve been so far">Where I’ve been so far</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-date">2024 – Present</p>
+                        <h3>Student & Learner</h3>
+                        <p>
+                            Learning core concepts in programming, working on assignments, and creating my first full projects in HTML, CSS, JavaScript, and Python.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-date">2014 – 2023</p>
+                        <h3>Student & Learner</h3>
+                        <p>
+                            Building a strong independent personality in O-levels and A-levels that has driven me to the cybersecurity analyst career path
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact">
+            <div class="glass-panel">
+            <div class="section-header">
+                <p class="eyebrow">Contact</p>
+                <h2>Let’s build something together</h2>
+            </div>
+
+            <div class="contact-grid">
+                <form id="contact-form" class="contact-form">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" placeholder="Your name" type="text" required />
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" placeholder="Yourname@example.com" type="email" required />
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message...." rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn primary full-width">Send message</button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+
+                <div class="contact-info">
+                    <p>
+                        Whether it’s a security breach, a tiny micro‑interaction, or just a concept you want to explore --- I’d love to hear it.
+                    </p>
+                    <div class="contact-icons">
+                            <a href="mailto:malika.aliraza@gmail.com" class="icon-link">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+
+                            <a href="https://github.com/Malika-Aliraza" target="_blank" class="icon-link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/malika-aliraza-36b387278/" target="_blank" class="icon-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+             </div>   
+        </section>
+    <div class="scanlines"></div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Malika Aliraza. Built with care.</p>
+    </footer>
+
+    <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
+    <script src="js/main.js"></script>
+    <script src="js/decrypt.js"></script>
+    <script src="js/ether.js"></script>
+</body>
+</html>
